@@ -1,7 +1,7 @@
 
-# Custom Unix Shell
+# Modular Unix Shell
 
-A custom Unix shell program that supports plugin-based extension for additional commands.
+A basic custom Unix shell that supports plugin-based extensions for additional commands.
 
 ### Table of Contents
 
