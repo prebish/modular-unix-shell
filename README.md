@@ -9,7 +9,7 @@ A custom Unix shell program that supports plugin-based extension for additional 
     1. [Clone the Repository](#1-clone-the-repository)
     2. [Compile the Program](#2-compile-the-program)
 - [Usage](#usage)
-    - [Loading Plugins](#loading-plugins)
+    - [Utilizing Plugins](#utilizing-plugins)
     - [Executing Commands](#executing-commands)
     - [Exiting the Shell](#exiting-the-shell)
 - [License](#license)
@@ -21,12 +21,12 @@ You can install it through your package manager or download it [**here**](https:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/prebish/custom-unix-shell.git
+git clone https://github.com/prebish/modular-unix-shell.git
 ```
 
 ### 2. Compile the Program
 ```bash
-cd ./custom-unix-shell
+cd ./modular-unix-shell
 gcc -o csh csh.c -ldl
 ```
 
@@ -38,7 +38,7 @@ This is the baseline of what you'll use to run the shell. Try running it yoursel
 ./csh
 ```
 
-### Loading Plugins
+### Utilizing Plugins
 
 You can dynamically load plugins that extend the shell's functionality.
 
